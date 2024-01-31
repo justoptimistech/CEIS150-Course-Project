@@ -1,0 +1,55 @@
+To add libraries to your program, you have to start by creating a 
+
+1. Directory:
+
+In your directory you  
+
+Use your command prompt to create a new folder in which you will create your Python library.
+
+-pwd
+
+-ls
+
+-cd <path>
+
+-mkdir <folder>
+
+-mypythonlibrary
+
+2. Virtual Environment:
+
+ In the virtual environment in Python is how you modify the PATH and the shell variables; this is a specific isolated Python set-up you created.
+
+-numpy     
+
+-(cd <path/to /folder>).)
+
+-(yourenvname) 
+
+               wheel
+
+               setuptools
+
+              Twine
+
+3. Folder Structure:
+
+In the folder structure you start writing your code and test run it to see if there is any errors and syntax errors.
+
+__init__.py
+
+myfunctions.py
+
+test_myfunctions.py
+
+There is 6 files in the folder structure.
+
+4. Content for your library:
+
+In this part your input the information that you need to add library in your Python program.
+
+-Haversine Function
+
+5. Build your library:
+
+In this final step you will start building the library by combining the information that you did in the four steps before. 
