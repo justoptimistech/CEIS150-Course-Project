@@ -1,0 +1,7 @@
+dedef importCSV_web_data(self):
+        symbol = self.stockList.get(self.stockList.curselection())
+        filename = filedialog.askopenfilename(title="Select " + symbol + " File to Import",filetypes=[('Yahoo Finance! CSV','*.csv')])
+        if filename != "":
+            self.import_stock_csv(self.stock_list,symbol,filename)
+            self.display_stock_data()
+            messagebox.showinfo("Import Complete",symbol + "Import Complete")
